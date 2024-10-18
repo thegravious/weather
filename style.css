@@ -9,7 +9,7 @@ body {
     height: 95vh;
     font-family: 'Roboto', sans-serif; /* Using Roboto for body text */
     background: linear-gradient(180deg, #87ceeb 0%, #ffffff 100%); /* Sky blue to white gradient background */
-    color: #333333; /* Dark gray for text */
+    color: #2180a8; /* Dark gray for text */
 }
 
 .hero {
@@ -28,6 +28,7 @@ body {
 #city {
     font-family: 'Bungee Inline', cursive; /* Bungee font for headings */
     font-size: 3rem;
+    color: #2180a8;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adding shadow to text */
 }
 
@@ -50,18 +51,18 @@ body {
 
 .input-group input {
     border-radius: 10px 0 0 10px;
-    border: 2px solid #87ceeb; /* Sky blue border for input */
+    border: 2px solid #2180a8; /* Sky blue border for input */
     background-color: rgba(255, 255, 255, 0.9); /* Light background for input */
     color: #333333; /* Dark text for input */
 }
 
 .input-group input::placeholder {
-    color: #666666; /* Placeholder color */
+    color: #2180a8; /* Placeholder color */
 }
 
 .input-group button {
     border-radius: 0 10px 10px 0;
-    background-color: #87ceeb; /* Sky blue button */
+    background-color: #2180a8; /* Sky blue button */
     color: #ffffff; /* White text */
     border: none; /* Remove border */
     transition: background-color 0.3s, transform 0.3s; /* Button hover effect */
@@ -97,7 +98,7 @@ body {
 .icon {
     font-size: 2rem; /* Larger icon size */
     margin-right: 10px; /* Space between icon and text */
-    color: #87ceeb; /* Sky blue for icons */
+    color: #2180a8; /* Sky blue for icons */
 }
 
 .tempC, .tempF, .weather, .sunrise-sunset, .wind-speed {
@@ -106,11 +107,15 @@ body {
 }
 
 .sunrise-sunset {
-    color: #87ceeb; /* Match sunrise/sunset icons with other icons */
+    color: #2180a8; /* Match sunrise/sunset icons with other icons */
 }
 
 .wind-speed {
-    color: #87ceeb; /* Match wind speed color with others */
+    color: #2180a8; /* Match wind speed color with others */
+}
+
+.text-blue{
+    color: #2180a8;
 }
 
 .footer {
