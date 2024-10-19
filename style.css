@@ -126,3 +126,65 @@ body {
     font-size: 0.9rem;
     opacity: 0.8; /* Slightly faded footer */
 }
+
+@media only screen and (max-width: 600px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    #city {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .weather-card p {
+        font-size: 1rem;
+    }
+
+    .input-group input, .input-group button {
+        font-size: 1rem;
+    }
+
+    .container {
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+
+    .input-group input {
+        width: 200px;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    #city {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.4rem;
+    }
+
+    .weather-card p {
+        font-size: 1.1rem;
+    }
+
+    .input-group input, .input-group button {
+        font-size: 1.1rem;
+    }
+
+    .container {
+        margin-top: 50px;
+    }
+
+    .input-group input {
+        width: 250px;
+    }
+}
